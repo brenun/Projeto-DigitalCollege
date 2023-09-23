@@ -46,6 +46,7 @@ body {
 
 .nav-menu-buttom {
     font-family: 'soinblack';
+    cursor: pointer;
     color: #000000;
     font-size: 17px;
     padding: 12px 25px;
@@ -58,3 +59,49 @@ body {
     color: white;
     transition: all 0.3s;
 }
+
+.section-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.text-h1 {
+    font-family: 'changabold';
+    font-size: 64px;
+    color: #000000;
+}
+
+.text-p {
+    font-family: 'soinblack';
+    font-size: 24px;
+    color: #000000;
+}
+
+.text-buttom {
+    font-family: 'changabold';
+    font-size: 17px;
+    cursor: pointer;
+    background: #dc3b75;
+    color: #fff;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0;
+    text-shadow: 2px 2px 2px #ab0642;
+    box-shadow: 4px 4px 0px 3px #ab0642;
+}
+
+.text-buttom:active {
+    box-shadow: 0 0 0 0 #ab0642, inset 3px 3px 3px #ab0642;
+    transform: translate(3px, 3px);
+    transition: all 0.3s;
+}
+
