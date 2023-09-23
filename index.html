@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="stylesheet" href="src/fonts.css">
-    <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
-    <title>Kerjain</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Kerjain</title>
+
+  <!--css-->
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <header class="header">
-        <a class="logo"href="#">Kerjain</a>
-        <nav class="nav-menu">
-            <a class="nav-menu-item" href="#">Home</a>
-            <a class="nav-menu-item" href="#">Feature</a>
-            <a class="nav-menu-item" href="#">News</a>
-            <a class="nav-menu-item" href="#">Contact us</a>
-        </nav>
-        <button class="nav-menu-buttom">Log in</button>
-    </header>
-    <main class="main">
-        <section class="section-text">
-            <div class="div-text">
-                <h1 class="text-h1">easy ways to work with a team</h1>
-                <p class="text-p">You can work together with your team anywhere and anytime. no need to go to the office and work gets done faster.</p>
-                <button class="text-buttom">DO IT NOW</button>
-            </div>
-            <img  class="main-img" src="src/img/main.jpg" alt="Image Team">
-        </section>
-    </main>
-    <footer class="footer">
-        
-    </footer>
+
+  <!--inicio da header section-->
+
+  <header>
+    <nav id="desktop-nav">
+      <a href="#" class="logo">Kerjain</a>
+      <div>
+        <ul class="nav-links">
+          <li class="home"><a href="#">Home</a></li>
+          <li class="feature"><a href="#">Feature</a></li>
+          <li class="news"><a href="#">News</a></li>
+          <li class="contact"><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div>
+        <button class="login-button">
+          Log in
+        </button>
+      </div>
+    </nav>
+  </header>
+
+<!--fim da header section-->
+
+  <main>
+    <section class="home">
+      <div class="home-text">
+        <h1 class="text-h1">easy ways to work with a team</h1>
+        <p>you can work together with your team anywhere and anytime no need to go to the office and work gets done faster.</p>
+      </div>
+      <div class="background-btn">
+        <a href="#" class="home-btn">DO IT NOW</a>
+      </div>
+      <div class="home-img">
+       <img src="assets/home-pic.jpg" alt="working">
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
