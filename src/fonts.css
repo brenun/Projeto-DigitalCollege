@@ -1,4 +1,9 @@
-@font-face {
+    @font-face {
+    font-family: 'soinblack';
+    src: url('fonts/Stawix\ -\ SoinSansNeue-Black.otf') format('otf');
+    }
+
+    @font-face {
     font-family: 'changaregular';
     font-style: normal;
     font-weight: normal;

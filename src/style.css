@@ -18,8 +18,11 @@ body {
     padding: 24px;
 }
 
-.logo-img {
-    height: 72px;
+.logo {
+    font-family: 'soinblack';
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
 }
 
 .nav-menu {
@@ -28,7 +31,7 @@ body {
 }
 
 .nav-menu-item {
-    font-family: 'changalight';
+    font-family: 'soinblack';
     color: #000000;
     font-size: 17px;
 }
@@ -41,10 +44,10 @@ body {
 }
 
 .nav-menu-buttom {
-    font-family: 'changalight';
+    font-family: 'soinblack';
     color: #000000;
     font-size: 17px;
-    padding: 10px 30px;
+    padding: 12px 25px;
     border-radius: 10px;
     background-color: #ffffff;
 }
