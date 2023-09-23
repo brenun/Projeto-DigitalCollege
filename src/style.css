@@ -37,10 +37,11 @@ body {
 }
 
 .nav-menu-item:hover {
-    transition: all 0.3s;
-    font-family: 'changamedium';
-    color: #000000;
+    font-family: 'soinblack';
+    font-size: 17px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
     text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .nav-menu-buttom {
