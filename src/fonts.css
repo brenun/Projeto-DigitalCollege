@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'changaregular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Changa-Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'changaextralight';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Changa-ExtraLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'changalight';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Changa-Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'changamedium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Changa-Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'changaSemibold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Changa-SemiBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'changabold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Changa-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'changaextrabold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Changa-ExtraBold.woff') format('woff');
+    }
