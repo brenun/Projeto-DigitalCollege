@@ -3,51 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto Kerjain</title>
+  <title>Kerjain</title>
 
-  <!--css-->
-  <link rel="stylesheet" href="style.css">
+  <!------------ Links ------------>
+  
+  <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="src/styles/style.css">
+  <link rel="stylesheet" href="src/styles/fonts.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body>
 
-  <!--inicio da header section-->
+  <!------------ inicio da header ------------>
 
   <header>
-    <nav id="desktop-nav">
+    <nav class="navigation">
       <a href="#" class="logo">Kerjain</a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#">Feature</a></li>
+        <li class="nav-item"><a href="#">News</a></li>
+        <li class="nav-item"><a href="#">Contact us</a></li>
+      </ul>
       <div>
-        <ul class="nav-links">
-          <li class="home"><a href="#">Home</a></li>
-          <li class="feature"><a href="#">Feature</a></li>
-          <li class="news"><a href="#">News</a></li>
-          <li class="contact"><a href="#">Contact us</a></li>
-        </ul>
-      </div>
-      <div>
-        <button class="login-button">
-          Log in
-        </button>
+        <button class="login-btn">Log in</button>
       </div>
     </nav>
   </header>
 
-<!--fim da header section-->
+<!------------ Inicio da Main ------------>
 
   <main>
     <section class="home">
       <div class="home-text">
-        <h1 class="text-h1">easy ways to work with a team</h1>
-        <p>you can work together with your team anywhere and anytime no need to go to the office and work gets done faster.</p>
-      </div>
-      <div class="background-btn">
+        <h1 class="text-h1">easy ways to <br>work with a</br> team</h1>
+        <p>You can work together with your team anywhere <br>and anytime. no need to go to the office and</br> work gets done faster.</p>
         <a href="#" class="home-btn">DO IT NOW</a>
       </div>
       <div class="home-img">
-       <img src="assets/home-pic.jpg" alt="working">
+        <img src="src/img/home-pic.jpg" alt="Drawing people">
       </div>
     </section>
   </main>
-  <script src="script.js"></script>
+  <script src="src/script.js"></script>
 </body>
 </html>
