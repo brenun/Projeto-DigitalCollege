@@ -1,0 +1,140 @@
+/* ---------- Reset Geral de Estilos ---------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #000;
+    background: #fff;
+}
+
+/* ---------- Estilos Gerais Header ---------- */
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    transition: all 0.3s;
+    position: fixed;
+    padding: 55px 10%;
+}
+
+.navigation .logo {
+    font-size: 1.7em;
+    font-family: 'Changa One', sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+
+.navigation ul li a {
+    font-size: 15px;
+    font-weight: 300;
+    color: #000;
+    transition: all 0.3s;
+}
+
+.navigation ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+
+.login-btn {
+    font-size: 15px;
+    font-weight: 300;
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.login-btn:hover {
+    background: #dc3b75;
+    color: #fff;
+}
+
+.menu {
+    cursor: pointer;
+    display: none;
+}
+
+.menu .bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: #000;
+    margin: 5px auto;
+    transition: all 0.2s;
+}
+
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3) {
+    background: #dc3b75;
+}
+
+/* ---------- Estilos Gerais Home ---------- */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10% 4% 10% 10%;
+}
+
+.home-text {
+    max-width: 37em;
+}
+
+.home-text h1 {
+    font-family: 'Changa One', sans-serif;
+    font-weight: 400;
+    font-size: 5em;
+    color: #000;
+    margin-bottom: 34px;
+}
+
+.home-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 34px;
+}
+
+.home-btn {
+    display: inline-block;
+    padding: 15px 45px;
+    background: #dc3b75;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 0px #dc3b75, inset 3px 3px 0px #fff;
+    transition: all 0.2s;
+}
+
+.home-btn:active {
+    transform: translate(3px, 3px);
+    box-shadow: inset 3px 3px 0px #dc3b75;
+}
+
+.home-img img {
+    width: 100%;
+}
+
